@@ -1,0 +1,67 @@
+body{
+background-color: aqua;
+width: 99%;
+}
+
+ul{
+list-style-type: none;
+margin: 50px 0px 0px 20px;
+height: 0px;
+}
+
+li{
+display: inline-block;
+font-size: 25px;
+padding: 0px 50px 0px 0px;
+}
+
+a.active {
+color: mediumorchid;
+}
+
+ul, li, a{
+color: yellow;
+}
+
+ul, li, a:hover{
+transition: 2s ease;
+color: mediumorchid;
+}
+
+h1{
+text-align:center;
+color: yellow;
+font-size: 50px;
+cursor: pointer;
+}
+
+h1:hover{
+transition: 2s ease;
+color: mediumorchid;
+}
+
+img {
+width: 30%;
+height: 30%;
+margin: 10px 150px 0px 0px;
+}
+
+.left{
+float: left;
+margin: 10px 0px 20px 120px;
+}
+
+.down{
+float: right;
+margin: 250px 120px 0px 0px;
+}
+
+p{
+text-align: center;
+text-align: justify;
+text-align-last: center;
+margin: 0 auto;
+width: 30em;
+font-size: 30px;
+color: mediumorchid;
+}
